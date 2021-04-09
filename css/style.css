@@ -1,0 +1,192 @@
+/* font-family: 'Saira Semi Condensed', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-size: 10px;
+  font-family: "Saira Semi Condensed", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  background-image: url(../img/header.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+header h1 {
+  position: absolute;
+  font-size: 4.5rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  text-align: center;
+  bottom: 70px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  max-width: 1440px;
+  width: 100%;
+  margin: 20px auto;
+  background-color: #555;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 20%;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+nav ul li a:hover {
+  background-color: #222;
+}
+
+main h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+main p {
+  font-size: 2rem;
+  text-indent: 10vw;
+}
+
+main span {
+  color: blue;
+}
+
+section {
+  margin-top: 60px;
+}
+
+#about {
+  padding: 0 5vw;
+}
+
+/* text-align: center centrujemy zdjęcia */
+#offer {
+  /* margin: 0 auto; */
+  text-align: center;
+  background-color: #ddd;
+}
+
+/* display:inline-block podowuje ze zdjęcia ustawią się jendno obok drugiego */
+/* szerokość 450px wynika z 1440px body / 3 zdjęcia */
+#offer figure {
+  display: inline-block;
+  width: 450px;
+}
+
+#offer figure img {
+  width: 100%;
+  border: 2px solid #444;
+}
+
+#offer figure figcaption {
+  font-size: 1.5rem;
+}
+
+#offer figure p {
+  font-size: 1rem;
+}
+
+#certificates {
+  text-align: center;
+}
+
+#certificates figure {
+  display: inline-block;
+  width: 670px;
+}
+
+#certificates figure img {
+  width: 100%;
+  border: 2px solid #ddd;
+}
+
+#certificates figure figcaption {
+  font-size: 1.5rem;
+}
+
+#gallery {
+  text-align: center;
+  background-color: #ddd;
+}
+
+#gallery figure {
+  display: inline-block;
+  width: 340px;
+  margin-bottom: 20px;
+}
+
+#gallery figure img {
+  width: 100%;
+}
+
+#gallery figure figcaption {
+  font-size: 1.5rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.wrap {
+  display: flex;
+}
+
+.wrap p {
+  font-size: 24px;
+}
+
+.address {
+  padding-left: 5vw;
+  flex-grow: 1;
+}
+
+.telephone {
+  flex-basis: 50%;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+}

@@ -1,0 +1,91 @@
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .wrap p {
+        font-size: 20px;
+    }
+}
+
+
+
+@media(max-width: 812px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+
+    #offer figure {
+        width: 340px;
+    }
+
+    #offer figure figcaption {
+        font-size: 1.2rem;
+    }
+
+    #offer figure p {
+        font-size: 0.8rem;
+    }
+
+    #certificates figure {
+        width: 340px;
+    }
+
+    #certificates figure figcaption {
+        font-size: 1.2rem;
+    }
+
+    #gallery figure figcaption {
+        font-size: 1.2rem;
+    }
+
+
+    .wrap p {
+        font-size: 0.5rem;
+    }
+
+    .address {
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .telephone {
+        padding-left: 0;
+        flex-basis: 50%;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 533px) {
+
+    nav {
+        position: relative;
+
+    }
+
+    nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    #offer figure,
+    #certificates figure,
+    #gallery figure {
+        width: 300px;
+    }
+}
